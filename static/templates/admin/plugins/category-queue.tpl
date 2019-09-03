@@ -13,7 +13,13 @@
 						<option value="">Don't queue</option>
 						<option value="{../cid}">queue</option>
 					</select>
+
+          <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect">
+            <input class="mdl-switch__input" type="checkbox" id="comment-{../cid}" name="comment-{../cid}" value="comment-{../cid}" />
+            <span class="mdl-switch__label">Queue comments of topic</span>
+          </label>
 				</div>
+
 				<!-- END categories -->
 			</form>
 		</div>
